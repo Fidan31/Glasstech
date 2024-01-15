@@ -1,0 +1,219 @@
+html,body{
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+#navbar{
+    height: 100px;
+    display: flex;
+}
+img{
+    width: 230px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 40px;
+
+}
+#logo{
+    flex: 3;
+}
+#nav-buttons{
+    flex: 6;
+}
+ul{
+    list-style-type: none;
+}
+#nav-buttons-ul{
+    display: flex;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    padding: 20px;
+    color: grey;
+    padding-right: 10px;
+    font-size: 15px;
+     width: calc(100%-210px); /* вычесть 210px из 100% */
+}
+#nav-buttons-ul > li{
+    flex: 1;
+}
+#langs{
+    display: flex;
+    flex: 1;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.border{
+    border-left: 1.5px solid;
+}
+#langs > ul >li:nth-child(n+2){
+    display: none;
+}
+#langs > ul:hover > li{
+    display: block;
+    background-color: rgb(240, 244, 244);
+}
+.strelka{
+    width: 9px;
+    height: 20%;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.flags{
+    width: 20px;
+    height: 15px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-left: -15px;
+}
+.suse{
+    width: 100%;
+    height: 500px;
+    margin-left: -20px;
+    padding-left: 20px;
+
+}
+#main{
+position: relative;
+}
+
+.slider-text{
+    position: absolute;
+    width: 900px;
+    height: 240px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    top: 30%;
+    left: 2px;
+    font-weight: bold;
+
+
+}
+.title{
+    font-family: inherit;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    margin: 15px;
+    text-transform: uppercase;
+    padding: 0 0 0px;
+    margin-left: 75px;
+    color: rgba(16, 13, 28, 0.929);
+}
+.suptitle{
+    font-weight: 100;
+    line-height: 45px;
+    margin: 0;
+    text-transform: uppercase;
+    margin-left: 75px;
+    font-size: 20px;
+    color: rgb(16, 19, 25);
+
+    
+}
+.p-text{
+    margin: 0;
+    margin-left: 20px;
+    padding: 50px;
+    padding-top: 20px;
+}
+.text{
+    font-size: 10px;
+    color: rgb(16, 18, 28);
+    letter-spacing: 1px;
+}
+#main.button{
+    position: relative;
+}
+.detrafli{
+    position: absolute;
+    top: 85%;
+    text-align: center;
+    border-radius: 2px;
+    display: block;
+    padding: 7px 20px 8px;
+    line-height: 25px;
+    color: azure;
+    background: rgb(13, 13, 37);
+    margin-left: 70px;
+    font-size: 15px;
+
+}
+.smehsullari-header{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(11, 11, 46);
+}
+.smehsullari-text{
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 0 15px 30px 15px;
+    color: grey;
+    margin-left: 100px;
+    text-align: center;
+}
+
+
+#images{
+    height: 80%;
+    display: flex;
+}
+.left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.left-image{
+    height: 510px;
+    width: 100%;
+    border: 2px solid #fff;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.right-top{
+    flex: 1;
+}
+.right-top-image{
+    height: 350px;
+    width: 100%;
+    border: 2px solid #fff;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.right-bottom{
+    flex: 1;
+    display: flex;
+}
+.right-bottom-left{
+   flex: 1;
+}
+
+.right-bottom-right{
+    flex: 1;
+    display: flex;
+}
+.right-bottom-left-image{
+    height: 150px;
+    width: 100%;
+    border: 2px solid #fff;
+    margin: 0;
+
+}
+.right-bottom-right-image{
+    height: 150px;
+    width: 100%;
+    border: 2px solid #fff;
+    margin: 0;
+}
